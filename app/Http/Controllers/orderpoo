@@ -1,0 +1,21 @@
+order
+
+
+
+
+            $table->integer('customer_id');
+            $table->string('order_date');
+            $table->string('order_status');
+            $table->string('total_products');
+            $table->string('sub_total');
+            $table->string('vat');
+            $table->string('total');
+            $table->string('payment_status');
+            $table->string('paid_amount');
+            $table->string('due_amount');
+
+
+
+ Order details 
+
+ 			
